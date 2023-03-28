@@ -23,6 +23,8 @@ header{
 }
 
 .header  img{
+	width:240px;
+	height:100px;
 	position: relative;
 	top: -12px;
 	margin-left: 20px;
