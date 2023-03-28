@@ -22,6 +22,15 @@ header{
 	
 }
 
+.header  img{
+	position: relative;
+	top: -12px;
+	margin-left: 20px;
+	padding: 0px;
+	float: left;
+}
+
+
 /* Navigator ud Header */
 /* ---------------------------------------- */
 .nav{
@@ -36,9 +45,9 @@ header{
 	padding: 0px;
 	text-align: center;
 	
-	
-	
 }
+
+
 
 .nav ul a{
 	text-decoration: none;
@@ -99,10 +108,18 @@ header{
 
 /* -------------------------------------------------- */
 
+/* Main */
+/* -------------------------------------------------- */
 
+main{
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
-
-
+.main{
+	background-color: aqua;
+	height: 200px;
+}
 
 
 
