@@ -131,9 +131,6 @@ main{
 	padding-bottom:10px ;
 }
 
-
-
-
 .main-information img{
 	width: 450px;
 	float: right;
@@ -141,15 +138,20 @@ main{
 }
 
 .Automarken{
+	height: auto;
+	min-height: 250px;
 	justify-content: center;
+
 }
 
 .cars{
-	margin-left: 60px;
+	justify-content: center;
+	margin-left: 30px;
+	flex-wrap: wrap ;
 	
 }
 .cars img {
-	width: 250px;
+	width: 270px;
 }
 
 .cars .car-1{
@@ -158,9 +160,11 @@ main{
 }
 
 .car-1{
-	
-	margin-right: 30px;
+	margin-right: 20px;
 }
+
+
+
 
 
 
