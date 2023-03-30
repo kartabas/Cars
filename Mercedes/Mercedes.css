@@ -123,7 +123,7 @@ main{
 
 .main{
 	margin-bottom: 10px;
-	height: 340px;
+	height: 390px;
 }
 
 .main h1 {
@@ -135,17 +135,32 @@ main{
 
 
 .main-information img{
-	width: 35%;
+	width: 450px;
 	float: right;
 	
 }
 
 .Automarken{
-	display: flex;
+	justify-content: center;
 }
 
+.cars{
+	margin-left: 60px;
+	
+}
+.cars img {
+	width: 250px;
+}
 
+.cars .car-1{
+	float: left;
+	position: relative;
+}
 
+.car-1{
+	
+	margin-right: 30px;
+}
 
 
 
