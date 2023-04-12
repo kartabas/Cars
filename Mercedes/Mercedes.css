@@ -137,34 +137,78 @@ main{
 	
 }
 
+.class{
+	margin-bottom: 10px;
+}
+
+.class h2{
+	margin-left: 45px ;
+	padding-bottom: 10px;
+ 	font-family: 400;
+}
+
+
 .Automarken{
 	height: auto;
 	min-height: 250px;
-	justify-content: center;
+	
 
+	
 }
 
 .cars{
-	justify-content: center;
-	margin-left: 30px;
-	flex-wrap: wrap ;
-	
-}
-.cars img {
-	width: 270px;
-}
+	flex-wrap: wrap;
+	display: flex;
 
-.cars .car-1{
-	float: left;
-	position: relative;
+	
+	justify-content: center; 
+	align-items: right;
+	
 }
 
 .car-1{
-	margin-right: 20px;
+	display: block;
+
+	padding: -5px;
+	padding-bottom: 10px;
+
+	margin-left: 5px;
+	margin-bottom:20px;
+	background-color: gray;
+
+	border-radius: 10%;
+
+}
+
+.car-1 img{
+	width: 270px;
+	border-radius: 10%;
 }
 
 
+.text-block{
+	height: auto;
+	width: 270px;
+	word-wrap: break-word ;
+	
+}
 
+.text-block h3{
+	text-align: center;
+	
+}
+
+.text-block ul {
+	width: 210px;
+	word-wrap: break-word ;
+}
+
+.text-block li{
+	
+	position: relative;
+	left: 30px;
+	
+}
 
 
 
