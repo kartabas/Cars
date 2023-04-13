@@ -89,7 +89,7 @@ header{
 }
 
 
-.nav ul li  :hover {
+ .nav ul li  :hover   {
 
 	text-decoration-line:underline;
 	text-decoration-color: wheat;
@@ -105,10 +105,13 @@ header{
 
 
 .nav .content :hover {
+	text-decoration: none;
 	background-color:gray;
 	display: block;
 
 }
+
+
 
 
 /* -------------------------------------------------- */

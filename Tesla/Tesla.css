@@ -108,6 +108,7 @@ header{
 
 
 .nav .content :hover {
+	text-decoration: none;
 	background-color:gray;
 	display: block;
 
