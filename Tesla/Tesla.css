@@ -56,28 +56,28 @@ header{
 
 .nav ul a{
 	text-decoration: none;
-	
-	
+	font-size: 17px;
+	color:black;
 }
 
 .nav ul li {
-	width:100px;
+	width: 125px;
 	background-color: rgb(255, 204, 0);
-	top: 17px;
-	padding: 15px;
+	top: 20px;
+	padding: 9px 12px;
 	
 }
 
-.nav ul li a{
+.nav li ul a{
 	color:black;
-	font-size: 17px;
+	font-size: 15px;
 	
 }
 
 .nav li{
 	float: left;
 	position: relative;
-	margin-left: 40px;
+	margin-left: 30px;
 	
 }
 
@@ -85,10 +85,12 @@ header{
 	display: none;
 	position: absolute;
 	
+	
 	padding-top: 10px;
 	right: 0px;
 
 }
+
 
 .nav ul li  :hover {
 
@@ -98,10 +100,11 @@ header{
 
 
 
-.nav ul li:hover ul{
+.nav ul li:hover .content{
 	display: block;
 	
 }
+
 
 
 .nav .content :hover {
@@ -109,7 +112,6 @@ header{
 	display: block;
 
 }
-
 
 /* -------------------------------------------------- */
 
