@@ -128,8 +128,13 @@ main{
 .main{
 
 	height: auto;
+	
 }
 
+
+.text{
+	margin-bottom: 50px;
+}
 
 .blocks{
 	height: auto;
