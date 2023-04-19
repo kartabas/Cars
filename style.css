@@ -158,6 +158,10 @@ main{
 	box-shadow: 2px 3px 4px gray;
 }
 
+.blocks :hover{
+	background-color: rgb(215, 215, 215);
+
+}
 
 .block-1 img {
 	width: 215px;
