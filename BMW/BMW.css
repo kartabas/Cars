@@ -128,7 +128,7 @@ header {
 }
 
 .TTop {
-	background-image: url("../Bild/37transparent.png");
+	
 	background-position: top;
 	height: 250px;
 
@@ -136,7 +136,8 @@ header {
 
 .TTop img {
 	width: 200px;
-
+	margin-left: 10px;
+	margin-right: 15px;
 }
 
 h1 {
