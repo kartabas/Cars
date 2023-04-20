@@ -175,9 +175,86 @@ main{
 	
 }
 
+/* Recorde Tabelle Cason */
+/* -------------------------------------------------- */
+
+/* Table styles */
+
+.container{
+	margin-top: 20px;
+}
 
 
+.container h1{
+	text-align: center;
+	margin-bottom: 10px;
+ }
 
+.table-wrapper {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+ }
+
+ 
+ table {
+	width: 65%;
+	border-collapse: collapse;
+	margin-left: 16%;
+ }
+ 
+ th {
+	background-color: #008CBA;
+	color: #fff;
+	text-align: left;
+	padding: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+ }
+ 
+ td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: left;
+ }
+ 
+ tr:nth-child(even) {
+	background-color: #f2f2f2;
+ }
+ 
+ @media screen and (max-width: 600px) {
+	th, td {
+	  display: block;
+	  width: 100%;
+	}
+ 
+	th {
+	  text-align: center;
+	  font-size: 1.2rem;
+	  padding-top: 1rem;
+	  padding-bottom: 1rem;
+	}
+ 
+	td {
+	  border: none;
+	  border-bottom: 1px solid #ddd;
+	  text-align: center;
+	  font-size: 1.1rem;
+	  padding-top: 0.5rem;
+	  padding-bottom: 0.5rem;
+	}
+ 
+	tr {
+	  border-bottom: none;
+	}
+ 
+	tr:nth-child(even) {
+	  background-color: #f7f7f7;
+	}
+ }
 /* Footer */
 /* -------------------------------------------------- */
 
