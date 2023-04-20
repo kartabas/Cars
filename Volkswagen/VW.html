@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title>Automarken</title>
+</head>
+<style type="text/css">
+	* {
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+
+	body {
+		width: 100%;
+		height: 100vh;
+		background-color: white;
+	}
+
+	header {
+		width: 100%;
+
+	}
+
+	.header {
+		height: 80px;
+
+		background-color: rgb(255, 204, 0);
+
+	}
+
+	.header img {
+		width: 240px;
+		height: 100px;
+		position: relative;
+		top: -12px;
+		margin-left: 20px;
+		padding: 0px;
+		float: left;
+	}
+
+
+	/* Navigator ud Header */
+	/* ---------------------------------------- */
+	.nav {
+		margin-left: 33%;
+
+
+	}
+
+	.nav ul {
+
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+
+	}
+
+
+
+	.nav ul a {
+		text-decoration: none;
+		font-size: 17px;
+		color: black;
+	}
+
+	.nav ul li {
+		width: 125px;
+		background-color: rgb(255, 204, 0);
+		top: 20px;
+		padding: 9px 12px;
+
+	}
+
+	.nav li ul a {
+		color: black;
+		font-size: 15px;
+
+	}
+
+	.nav li {
+		float: left;
+		position: relative;
+		margin-left: 30px;
+
+	}
+
+	.nav li .content {
+		display: none;
+		position: absolute;
+
+
+		padding-top: 10px;
+		right: 0px;
+
+	}
+
+
+	.nav ul li :hover {
+
+		text-decoration-line: underline;
+		text-decoration-color: wheat;
+	}
+
+
+
+	.nav ul li:hover .content {
+		display: block;
+
+		z-index: 2;
+
+	}
+
+
+
+	.nav .content :hover {
+		text-decoration: none;
+
+		display: block;
+		background-color: gray;
+
+	}
+
+
+
+
+	/* -------------------------------------------------- */
+
+	.main {
+		width: 100%;
+		flex-wrap: wrap;
+		display: flex;
+
+	}
+
+	.TTop {
+		background-image: url("../Bild/37transparent.png");
+		background-position: top;
+		height: 250px;
+		
+	}
+
+	.TTop img {
+		width:200px;
+		
+	}
+
+	h1 {
+		font-size: 30px;
+		color: black;
+		font-family: Arial;
+		text-align: center;
+	}
+
+	p {
+		font-size: 20px;
+		color: black;
+		font-family: Arial;
+		line-height: 1.5;
+	}
+
+	.Text {
+		margin: 5px;
+		width: 30%;
+		min-height: 100px;
+		border-style: solid;
+		border-color: black;
+		margin-left: 2%;
+
+	}
+
+	/* Footer */
+	/* -------------------------------------------------- */
+
+	footer {
+		margin-top: 50px;
+	}
+
+	.footer {
+
+		background-color: black;
+		height: auto;
+		padding-right: 16px;
+		padding-left: 16px;
+	}
+
+
+
+	.footer h2 {
+		color: white;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.footer p {
+		color: white;
+		text-align: center;
+		padding: 10px;
+	}
+</style>
+
+
+
+<body>
+
+	<header><!--Navigation-->
+		<div class="header">
+			<img src="../img/header.png" alt="Car">
+			<div class="nav">
+				<ul>
+					<li><a href="../index.html">Startseite</a></li>
+
+					<li><a href="../Info/info.html">Über uns</a></li>
+
+					<li><a href="#">Automarken</a>
+						<div class="content">
+							<ul>
+								<li><a href="../Mercedes/Mercedes.html">Mercedes-Benz</a></li>
+								<li><a href="../Tesla/Tesla.html">Tesla</a></li>
+								<li><a href="../BMW.html">BMW</a></li>
+								<li><a href="Volkswagen/VW.html">VW</a></li>
+								<li><a href="../Lamborghini/Lamborghini.html">Lamborghini</a></li>
+								<li><a href="../Chrysler/index.html">Chrysler</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="TTop">
+		<h1>Volkswagen</h1>
+		<p> <img src="../Bild/Volkswagen.svg.png" style="float:left"  >Volkswagen (VW) ist die
+			Kernmarke der Volkswagen AG. Ursprung des Markennamens
+			war 1937 das von Adolf Hitler geforderte Projekt zum Bau eines „Volksautos“, das erstmals einer breiten
+			Bevölkerung ein bezahlbares Auto ermöglichen und
+			damit die Massenmotorisierung in Deutschland einleiten sollte. Bis dahin waren Automobile durch einen hohen
+			Preis überwiegend in der Oberschicht vorzufinden.
+			In der Nachkriegszeit wurde 1949 durch Gründung der Volkswagen G.m.b.H. der Markenname Volkswagen gefestigt.
+			2020 wurden weltweit rund 50 Modelle unter
+			der Marke Volkswagen hergestellt. Das Land Niedersachsen ist Großaktionär von VW.</p>
+	</div>
+	<div class="main">
+
+
+		<div class="Text">
+			<h2>Golf</h2>
+			<img src="../Bild/golf.jpg" width="90%" height="30%">
+			<p> Der Golf ist ein Fahrzeugmodell des deutschen Herstellers Volkswagen. Anfang 2020 kommt der Pkw der unteren
+				Mittelklasse in achter Generation auf den Markt. Er ist eines der wichtigsten Modelle von VW und wurde seit
+				der
+				Einführung 1974 über 30 Millionen mal gebaut.
+				Damit gilt er zudem als eines der erfolgreichsten Autos überhaupt. Nur wenige andere Autos wurden bisher
+				noch
+				öfter produziert. Oft wird die Kompaktklasse
+				daher auch als „Golf-Klasse“ bezeichnet. Bezeichnend für den Golf ist seit der Markteinführung die gute
+				Raumausnutzung und das klare, zeitlose Design,
+				wofür die Baureihe in verschiedenen Modellgenerationen zahlreiche Design-Preise erhielt. Als besonders
+				gelungen
+				gelten das Design von Golf I, Golf II,
+				Golf IV und Golf VII.</p>
+		</div>
+		<div class="Text">
+			<h2>Passat</h2>
+			<img src="../Bild/passat.jpeg" width="90%" height="30%">
+			<p> Der VW Passat ist das erfolgreichste Mittelklasse-Modell weltweit und eines der erfolgreichsten Autos
+				überhaupt. Seit 1973 wurden über 30 Millionen Stück gefertigt. Vor allem in Europa ist der in Emden
+				hergestellte Passat sehr beliebt. Besonders als geräumige
+				Familienkutsche und als Vertreterauto. Von den Vertretern her rührt es auch, dass Passat im Durchschnitt
+				viel
+				mehr Kilometer pro Jahr zurücklegen als die
+				meisten anderen Autos. In Deutschland werden etwa 90 % aller Passat als praktische Kombis (bei VW Variant
+				genannt) verkauft. Typisch für den Passat sind die
+				gute Raumausnutzung und ein dafür optimiertes, zeitloses Design.</p>
+		</div>
+		<div class="Text">
+			<h2>Polo</h2>
+			<img src="../Bild/polo.jpg" width="90%" height="30%">
+			<p> Der Polo ist ein Kleinwagen der Volkswagen AG und wird seit 1975 gebaut. Zunächst war der Polo als
+				Sparversion des Audi 50 geplant. Der VW verkaufte sich aber so erfolgreich, dass der Polo fest in die
+				Produktpalette aufgenommen wurde. 2017 kam die
+				sechste Generation des Polos auf den Markt. Von der ersten Generation an bot der Kleinwagen mit dem Motor
+				quer
+				über der Vorderachse und Frontantrieb
+				erstaunlich gute Platzverhältnisse und er zählt seit Jahrzehnten zu den meistverkauften Autos in
+				Deutschland.
+			</p>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+	<footer><!--Footer-->
+		<div class="footer">
+			<h2>Seite über Automarken</h2>
+			<p>Cason und Sascha und Xinyan Li</p>
+			<p>©2023 Automarken </p>
+
+		</div>
+	</footer>
+</body>
+
+</html>
