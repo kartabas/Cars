@@ -1,0 +1,231 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: white;
+}
+
+header {
+	width: 100%;
+
+}
+
+.header {
+	height: 80px;
+
+	background-color: rgb(255, 204, 0);
+
+}
+
+.header img {
+	width: 240px;
+	height: 100px;
+	position: relative;
+	top: -12px;
+	margin-left: 20px;
+	padding: 0px;
+	float: left;
+}
+
+
+/* Navigator ud Header */
+/* ---------------------------------------- */
+.nav {
+	margin-left: 33%;
+
+
+}
+
+.nav ul {
+
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+
+}
+
+
+
+.nav ul a {
+	text-decoration: none;
+	font-size: 17px;
+	color: black;
+}
+
+.nav ul li {
+	width: 125px;
+	background-color: rgb(255, 204, 0);
+	top: 20px;
+	padding: 9px 12px;
+
+}
+
+.nav li ul a {
+	color: black;
+	font-size: 15px;
+
+}
+
+.nav li {
+	float: left;
+	position: relative;
+	margin-left: 30px;
+
+}
+
+.nav li .content {
+	display: none;
+	position: absolute;
+
+
+	padding-top: 10px;
+	right: 0px;
+
+}
+
+
+.nav ul li :hover {
+
+	text-decoration-line: underline;
+	text-decoration-color: wheat;
+}
+
+
+
+.nav ul li:hover .content {
+	display: block;
+
+	z-index: 2;
+
+}
+
+
+
+.nav .content :hover {
+	text-decoration: none;
+
+	display: block;
+	background-color: gray;
+
+}
+
+
+
+
+/* -------------------------------------------------- */
+
+.main {
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+
+}
+
+.TTop {
+	background-image: url("../Bild/37transparent.png");
+	background-position: top;
+	height: 250px;
+	
+}
+
+.TTop img {
+	width:200px;
+	
+}
+
+h1 {
+	font-size: 30px;
+	color: black;
+	font-family: Arial;
+	text-align: center;
+}
+
+.text h1{
+	text-align: left;
+}
+
+p {
+	font-size: 20px;
+	color: black;
+	font-family: Arial;
+	line-height: 1.5;
+}
+
+.Text {
+	margin: 5px;
+	width: 30%;
+	min-height: 100px;
+	border-style: solid;
+	border-color: black;
+	margin-left: 2%;
+
+}
+
+/* Golf */
+.Tittel  {
+	background-color: #BEBEBE;
+	
+}
+
+.Tittel h2{
+	text-align: center;
+	position: relative;
+	right: 120px;
+	font-size: 30px;
+	
+}
+
+.Table {
+	margin: 20px;
+	width: 100%;
+	min-height: 50px;
+	border-style: solid;
+	border-color: black;
+	float: left;
+
+	
+
+	
+}
+
+.Table ul{
+	list-style-type: none;
+}
+
+
+
+
+/* Footer */
+/* -------------------------------------------------- */
+
+footer {
+	margin-top: 50px;
+}
+
+.footer {
+
+	background-color: black;
+	height: auto;
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+
+
+.footer h2 {
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+.footer p {
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
