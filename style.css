@@ -138,8 +138,10 @@ main{
 
 .blocks{
 	height: auto;
+
 	flex-wrap: wrap;
 	display: flex;
+	
 	margin-left: 5%;
 	
 }
